@@ -24,7 +24,7 @@ ____
 
 
 - install Python 3.8
-- install libs 
+- install libs
 ```shell
       pip3 install -r requirements.txt
 ```
@@ -49,3 +49,10 @@ python3 manage.py migrate
 ```shell
 python3 manage.py runserver 0.0.0.0:8000
 ```
+
+* start application via docker compose
+```shell
+docker compose up --build
+```
+
+For more information, please, read comments on both Dockerfile and compose.yaml files.
